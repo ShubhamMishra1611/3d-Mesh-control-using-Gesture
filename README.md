@@ -16,7 +16,7 @@ If you are confortable with pip you can install the packages using pip. To insta
 You can change the path to site packages according to your blender installation path.
 ### Using blender scripting
 To install usng blender scripting follow the following steps:
-1. Open blender
+1. Open blender with administrative privileges.
 2. Open the script editor
 3. Copy the following code and paste it in the script editor
 ``` import subprocess
@@ -59,3 +59,10 @@ Once you have installed, to use the addon follow the following steps:
     2. Rotate palm when palm facing screen : To rotate the mesh about global z axis
     3. Rotate palm when palm facing upwards: To rotate the mesh about global y axis
     4. Rotate palm when palm facing sideways: To rotate the mesh about global x axis
+    
+    
+    
+ ## Further scope
+Currently it works only for one hand at a time. Also does not have many UI controlling features.
+We will try to add these and more updates to make gesture control more easier with more controllable attributes.
+Anyone interested in further development on this add-on can drop me a message I would be happy to work.
