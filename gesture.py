@@ -18,7 +18,7 @@ bl_info = {
 }
 
 
-path = "DTC.pkl"   # Enter your path for DTC.pkl here
+path = r"..\DTC.pkl"   # Enter your path for DTC.pkl here
 model = pickle.load(open(path, "rb"))
 
 obj = None
