@@ -36,14 +36,14 @@ subprocess.call([python_exe, "-m", "pip", "install", "mediapipe"])
 subprocess.call([python_exe, "-m", "pip", "install", "opencv-python"])
 subprocess.call([python_exe, "-m", "pip", "install", "scikit-learn"])
 ```
-You can copy the same code from [here]()
+You can copy the same code from [here](install_requirements.py)
 
 After installing the packages you need to add some files manually.
-1. Add hand_track.py file from [here]() to the site-packages folder.
-2. Add the DTC.pkl file from [here]() to the addon folder.
+1. Add hand_track.py file from [here](hand_track.py) to the site-packages folder.
+2. Add the DTC.pkl file from [here](DTC.pkl) to the addon folder.
 Though you can place the DTC.pkl file anywhere but you need to change the path in the gesture.py and make the add-on again.
 
-After this you can download the addon from [here]() and install it in blender using the following steps:
+After this you can download the addon from [here](gesture.zip) and install it in blender using the following steps:
 1. Open blender
 2. Go to Edit -> Preferences -> Add-ons
 3. Click on Install button and select the gesture.zip file you downloaded.
