@@ -94,13 +94,12 @@ class ButtonOperator(bpy.types.Operator):
     
 
     def execute(self, context):
-        # get the active object
         global obj
         obj = bpy.context.active_object
         cap = cv2.VideoCapture(0)
         detector = ht.TrackHand()
         coordinates = []
-        for i in range(100):
+        for i in range(1000):
             ret,img = cap.read()
             img = cv2.flip(img,1)
             img = detector.get_hand(img,draw_markers=False)
